@@ -1,0 +1,482 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 90px 0;
+}
+.nav {
+    width: 50%;
+}
+#logo {
+    width: 100%;
+    height: 79%;
+}
+.frc {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: right;
+}
+.list {
+    display: inline;
+    padding: 15px;
+}
+.hovert {
+    color: hsl(229, 8%, 60%);
+}
+.redc {
+    color: white;
+}
+.hover:hover {
+    color:hsl(0, 94%, 66%) ;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.simple {
+    width: 40%;
+}
+.image {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+.image::after {
+    content: "";
+    position: absolute;
+    background:hsl(231, 69%, 60%);
+    width: 84%;
+    height: 70%;
+    z-index: -1;
+    bottom: -16px;
+    border-radius: 0 0 0 90px;
+    right: -101px;
+
+}
+.easy {
+    width: 45%;
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+    margin: auto;
+}
+.ssc {
+    padding: 0;
+    margin-bottom: 0;
+}
+.list2one {
+    display: inline-block;
+    padding-bottom: 15px;
+    color: hsl(229, 8%, 60%);
+    text-align: center;
+    width: 32%;
+    border-bottom: 3px solid hsl(0, 94%, 66%) ;
+}
+.list2 {
+    text-align: center;
+    width: 29%;
+    display: inline-block;
+    color: hsl(229, 8%, 60%);
+}
+.ssc li:nth-child(2) {
+    width: 36%;
+}
+
+.bookmark {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+.image2 {
+    width: 40%;
+    position: relative;
+}
+.image2::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background: hsl(231, 69%, 60%);
+    left: -101px;
+    z-index: -1;
+    bottom: -60px;
+    border-bottom-right-radius: 80px;
+}
+.imgb {
+    width: 100%;
+}
+.organize {
+    width: 40%;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.box1 {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 5px #80808057;
+    text-align: center;
+    padding: 15px;
+    width: 27%;
+    overflow: hidden;
+}
+.box2 {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 5px #80808057;
+    text-align: center;
+    padding: 15px;
+    top: 20px;
+    position: relative;
+    width: 27%;
+    overflow: hidden;
+}
+.box3 {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 5px #80808057;
+    text-align: center;
+    padding: 15px;
+    top: 40px;
+    position: relative;
+    width: 27%;
+    overflow: hidden;
+}
+.dot {
+    margin-bottom: 10px;
+}
+footer {
+    padding: 22px 0;
+    background-color: hsl(229, 31%, 21%);
+}
+.footerc {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.lolist {
+    display: flex;
+    list-style-type: none;
+}
+.list3 {
+    display: inline;
+    padding: 15px;
+    color: white;
+}
+.asbm {
+    font-size: 3rem;
+}
+p {
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+}
+.features {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.fea {
+    font-size: 2rem;
+}
+.click {
+    margin-bottom: 60px;
+}
+.download {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.faq {
+    width: 40%;
+    margin: auto;
+}
+.que {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.stions {
+    border-bottom: 1px solid;
+    color: black;
+    padding: 10px 0;
+    margin: 0;
+}
+.stions1 {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: black;
+    padding: 10px 0;
+    margin: 0;
+}
+.butque {
+    text-align: center;
+    margin-top: 50px;
+}
+.stay35 {
+    margin-top: 60px;
+    padding: 10px;
+    background: hsl(231, 69%, 60%);
+}
+.stay {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    padding: 25px;
+}
+.arrow {
+    float: right;
+    padding-right: 15px;
+}
+.date {
+    font-size: 2rem;
+    color: white;
+}
+.small {
+    color: white;
+}
+.footl {
+    width: 28%;
+    height: 56%;
+    margin: auto;
+}
+.footi {
+    padding: 15px;
+}
+#list3 {
+    margin: auto;
+    padding-left: 0;
+}
+.loginb {
+    background: hsl(0, 94%, 66%);
+    color: white;
+    padding: 9px;
+    border-radius: 12px;
+    width: 25%;
+    border: none;
+    box-shadow: 0px 3px 3px #80808047;
+}
+.conbut {
+    background: hsl(0, 94%, 66%);
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+}
+.butgetc {
+    background: hsl(231, 69%, 60%);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 3px 3px #80808047;
+}
+.butgetf {
+    border-radius: 10px;
+    padding: 10px;
+    color: hsl(229, 8%, 60%);
+    background: white;
+    border: none;
+    box-shadow: 0px 3px 3px #80808047;
+    margin-left: 20px;
+}
+.email {
+    border-radius: 5px;
+    padding: 10px;
+    color: hsl(229, 8%, 60%);
+    background: white;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+.loginb:hover {
+    background: white;
+    border: 1px solid hsl(0, 94%, 66%);
+}
+.loginb:hover a {
+    color: hsl(0, 94%, 66%);
+}
+.butgetc:hover {
+    background: white;
+    border: 1px solid hsl(231, 69%, 60%);
+}
+.butgetc:hover a {
+    color: hsl(231, 69%, 60%) ;
+}
+.butgetf:hover {
+    background: white;
+    border: 1px solid hsl(229, 8%, 60%);
+}
+.conbut:hover {
+    background: white;
+    border: 1px solid hsl(0, 94%, 66%);
+}
+.conbut:hover a {
+    color: hsl(0, 94%, 66%);
+}
+.ham {
+    display: none;
+}
+
+@media (max-width:1153px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .nav {
+        width: 60%;
+    }
+    .arrow {
+        padding-right: 0;
+    }
+}
+
+@media (max-width:832px) {
+    /* header {
+        width: 90%;
+        margin: auto;
+    } */
+    .frc {
+        display: none;
+    }
+    .ham {
+        display: block;
+        float: right;
+    }
+    .content {
+        flex-direction: column-reverse;
+    }
+    .image {
+        width: 100%;
+    }
+    .image img {
+        width: 100%;
+    }
+    .simple {
+        width: 100%;
+        text-align: center;
+    }
+    .butgetc {
+        width: 47%;
+    }
+    .butgetf {
+        width: 47%;
+        margin-left: 0;
+    }
+    .features {
+        width: 100%;
+    }
+    .easy {
+        width: 100%;
+        border-bottom: none;
+    }
+    .list2one {
+        display: block;
+        padding: 15px;
+        width: 100%;
+        border-top: 1px solid hsl(229, 8%, 60%);
+    }
+    .list2 {
+        display: block;
+        padding: 15px;
+        width: 100%;
+        border-bottom: 1px solid hsl(229, 8%, 60%);;
+    }
+    .ssc li:nth-child(2) {
+        width: 100%;
+        border-top: 1px solid hsl(229, 8%, 60%);
+    }
+    .bookmark {
+        flex-direction: column;
+    }
+    .image2 {
+        width: 100%;
+        text-align: center;
+    }
+    .organize {
+        width: 100%;
+        margin-top: 85px;
+        text-align: center;
+    }
+    .butnone {
+        display: none;
+    }
+    .download {
+        width: 100%;
+    }
+    .box {
+        flex-direction: column;
+        width: 100%;
+    }
+    .dot {
+        width: 100%;
+    }
+    .box1, .box3 {
+        width: 100%;
+        margin: auto;
+    }
+    .box2 {
+        /* margin-bottom: 50px;
+        margin-top: 50px; */
+        width: 100%;
+        margin: auto;
+    }
+    .butm {
+        width: 100%;
+    }
+    .faq {
+        width: 100%;
+    }
+    .stions1 {
+        border-top: none;
+    }
+    .email {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .stay {
+        width: 90%;
+    }
+    .conbut {
+        width: 100%;
+    }
+    .footerc {
+        width: 90%;
+        flex-direction: column;
+    }
+    .lolist {
+        flex-direction: column;
+    }
+    .list3 {
+        display: block;
+    }
+    .icon {
+        text-align: center;
+    }
+    .asbm {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 15px;
+    }
+}
